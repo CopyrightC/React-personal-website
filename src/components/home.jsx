@@ -2,6 +2,7 @@ import React from 'react'
 import {Link,BrowserRouter as Router} from 'react-router-dom'
 import img from "./images/github.png"
 import img2 from "./images/stack.png"
+
 export const Home = () => {
     return(
         <>
@@ -19,9 +20,6 @@ export const Home = () => {
         <button style = {{borderRadius : "50%",height : "58px",width:"58px",backgroundColor : "white"}}><img src={img2}/></button>
         </a>
 
-    </div>
-    <div style =  {{position : "absolute", top : "100%", left : "20%"}}>
-    <p><font face="fira code" size="4" color = "white" className = "mx-2 my-4 px-2" >I'm a Student, a <span class ="spansub">Pythonista</span>, a <span class ="spansub">Networking guy</span> and looking forward to learn <span class ="spansub">React native</span></font></p>
     </div>
     </>
 )}

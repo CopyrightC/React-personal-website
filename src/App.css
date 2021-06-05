@@ -16,6 +16,23 @@
   color :rgb(121, 36, 76)
 }
 
+.font {
+  margin-left: 340px;
+  position: absolute;
+  color : white;
+  margin-bottom: 50px;
+  font-family: "fira code";
+  
+}
+.carousel{
+  position : "absolute";
+  margin-left : 60px;
+  margin-top: 71px;
+  top : "100%";
+  left : "20%";
+  max-width: 900px;
+  max-height : 600px;
+}
 .spansub {
   color :rgb(89, 184, 27)
 }
