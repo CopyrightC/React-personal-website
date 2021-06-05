@@ -1,4 +1,4 @@
-.App {
+.App:not(#id) {
   text-align: center;
 }
 
@@ -24,10 +24,23 @@
   font-family: "fira code";
   
 }
+
+#text {
+  margin-top: 200px;
+  text-align: left;
+  margin-right: 200px;
+  color : white;
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-family: "fira code";
+  
+}
+
 .carousel{
   position : "absolute";
   margin-left : 60px;
-  margin-top: 71px;
+  margin-top: 91px;
+  margin-bottom: 91px;
   top : "100%";
   left : "20%";
   max-width: 900px;
@@ -35,6 +48,18 @@
 }
 .spansub {
   color :rgb(89, 184, 27)
+}
+.listitem{
+  text-align: left;
+  margin-right: 200px;
+  color : white;
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-family: "fira code";
+}
+.hr {
+  width: 75%;
+  color :white
 }
 
 
