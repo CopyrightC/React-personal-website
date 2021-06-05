@@ -12,6 +12,10 @@
   color: #a86b08;
 }
 
+.letter:hover {
+  color :rgb(45, 135, 141)
+}
+
 .spansub {
   color :rgb(110, 92, 43)
 }
