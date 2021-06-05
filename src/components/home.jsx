@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link,BrowserRouter as Router} from 'react-router-dom'
 import img from "./images/github.png"
 import img2 from "./images/stack.png"
 
