@@ -36,7 +36,7 @@ export const Projects = () => {
 </div>
 
         <p id="text">So, I have been programming for a while now, which ulimately led me to develop some cool projects. Here's a list of my top projects : </p> 
-        <hr class = "hr"/>
+        <hr className = "hr"/>
         <p className="listitem">
           
         1.<a href="https://github.com/SATAN01/GUI-chat-app" target= "_blank"><font className = "my-3 mx-3">Pychat</font> </a>
@@ -49,7 +49,7 @@ export const Projects = () => {
           <br />
           <br />
           </p>
-          <hr class = "hr"/>
+          <hr className = "hr"/>
           <p className="listitem">
         2. <a href="https://github.com/SATAN01/DogeChat" target = "_blank">Pychat 2.0</a> (Also known as <i>DogeChat</i>)
         <br />
@@ -59,7 +59,7 @@ export const Projects = () => {
           which is generally not provided in most of the <i>tkinter</i> built-in GUI's
         </p>
         
-        <hr class = "hr"/>
+        <hr className = "hr"/>
         <p className="listitem">
         3. <a href="https://github.com/SATAN01/Control-mouse-with-your-fingers" target = "_blank"><font className = "my-3 mx-3">Finger cursor</font></a>
         <br />
