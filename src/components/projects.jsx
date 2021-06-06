@@ -37,7 +37,7 @@ export const Projects = () => {
 
         <p id="text">So, I have been programming for a while now, which ulimately led me to develop some cool projects. Here's a list of my top 4 projects : </p> 
         <hr className = "hr"/>
-        <div class= "container" id = "pyc">
+        <div className= "container" id = "pyc">
         <p className="listitem">
           
         1.<a href="https://github.com/SATAN01/GUI-chat-app" target= "_blank" rel="noopener noreferrer"><font className = "my-3 mx-3">Pychat</font> </a>
@@ -52,7 +52,7 @@ export const Projects = () => {
           </p>
           </div>
           <hr className = "hr"/>
-          <div class= "container" id = "pyc2">
+          <div className= "container" id = "pyc2">
           <p className="listitem">
         2. <a href="https://github.com/SATAN01/DogeChat" target = "_blank" rel="noopener noreferrer">Pychat 2.0</a> (Also known as <i>DogeChat</i>)
         <br />
