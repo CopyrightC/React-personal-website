@@ -5,20 +5,20 @@ export const Contact = () => {
     const [email,setEmail] = useState("");
     return (
         <>
-        <div style = {{position: "absolute",bottom:"-325%",left:"25%",textAlign:'center'}} id = "contact">
+        <div id = "contactdiv">
             <h1 className ="font"><span className="letter">C</span><span className="letter">o</span><span className="letter">n</span><span className="letter">t</span><span className="letter">a</span><span className="letter">c</span><span className="letter">t</span></h1>
             <br />
             <br />
             <br />
             <font className="ctxt">Your name</font>
-            <textarea value={name} onChange = {(eve)=>setName(eve.target.value)} id="textar" cols="100" rows="2" placeholder = "Eg : Elon Musk"></textarea>
+            <textarea value={name} onChange = {(eve)=>setName(eve.target.value)} className="textar" cols="100" rows="2" placeholder = "Eg : Elon Musk"></textarea>
             <br />
             <font className="ctxt">Email</font>
-            <textarea value={email} onChange = {(eve)=>setEmail(eve.target.value)} id="textar" cols="100" rows="2" placeholder = "yourname@example.com"></textarea>
+            <textarea value={email} onChange = {(eve)=>setEmail(eve.target.value)} className="textar" cols="100" rows="2" placeholder = "yourname@example.com"></textarea>
             <br />
            
             <font className="ctxt">Message</font>
-            <textarea value={msg} onChange = {(eve)=>setMsg(eve.target.value)} id="textar" cols="100" rows="15" placeholder = "Message here"></textarea>
+            <textarea value={msg} onChange = {(eve)=>setMsg(eve.target.value)} className="textar" cols="100" rows="15" placeholder = "Message here"></textarea>
             <br />
             
             <button type="button" className="submit btn btn-primary my-3" style = {{width : "120px",height:"50px"}} onClick = {() => {

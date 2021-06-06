@@ -17,7 +17,7 @@
 }
 
 .font {
-  margin-left: 340px;
+  margin-left: 350px;
   position: absolute;
   color : white;
   margin-bottom: 50px;
@@ -35,6 +35,8 @@
   color :white;
   background-color: #1a1717
 }
+
+
 #text {
   margin-top: 200px;
   text-align: left;
@@ -45,12 +47,12 @@
   font-family: "fira code";
   
 }
-#textar{
+.textar{
   margin-top: 100px;
-  left: -10%;
+  margin-right: 400px;
 }
 .submit{
-  margin-left: -600px;
+  margin-right : 1000px;
 }
 .submit:hover{
   background-color  :rgb(124, 100, 34)
