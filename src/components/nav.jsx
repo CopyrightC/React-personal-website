@@ -1,7 +1,6 @@
 import React from 'react'
-import {
-Link
-  } from "react-router-dom";
+
+import { Link, animateScroll as scroll } from "react-scroll";
 export const Nav = () => {
     return (
         <div>
@@ -18,11 +17,24 @@ export const Nav = () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <Link className="nav-link" type = "button">Contact</Link>
         </li>
-        
+        <li className="nav-item dropdown">
+        <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Projects
+          </Link>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link className="dropdown-item" to="pyc"smooth = {true} duration = {300}>Pychat</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link className="dropdown-item" to = "pyc2"smooth = {true} duration = {300}>Pychat 2.0</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link className="dropdown-item" to="finger"smooth = {true} duration = {300} > Finger cursor</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link className="dropdown-item" to = "pyhack" smooth = {true} duration = {300}>Pyhack</Link></li>
+          </ul>
+        </li>
       </ul>
-
+       
     </div>
   </div>
 </nav>

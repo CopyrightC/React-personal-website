@@ -12,10 +12,10 @@ export const Home = () => {
         <p><font face="fira code" size="4" color = "white" className = "mx-2 my-4 px-2" >On the internet, I'm known as Copyright(C), quite weird huh?</font></p>
         <button type="button" className="mybutton btn btn-info my-3" style = {{width : "120px",}}>View</button> 
         <br/>
-        <a href="https://github.com/SATAN01" target="_blank">
+        <a href="https://github.com/SATAN01" target="_blank" rel="noopener noreferrer">
         <button className= "mx-2 my-4"style = {{borderRadius : "50%",height : "58px",width:"58px",backgroundColor : "white"}}><img src={img}/></button>
         </a>  
-        <a href="https://stackoverflow.com/users/13845215/copyrightc" target="_blank"> 
+        <a href="https://stackoverflow.com/users/13845215/copyrightc" target="_blank" rel="noopener noreferrer"> 
         <button style = {{borderRadius : "50%",height : "58px",width:"58px",backgroundColor : "white"}}><img src={img2}/></button>
         </a>
 
