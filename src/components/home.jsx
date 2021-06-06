@@ -4,7 +4,7 @@ import img2 from "./images/stack.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 export const Home = () => {
     return(
-        <>
+
     <div id="home"style= {{position : "absolute",top : "30%",left : "20%"}}>
         <h2 className= "my-4"><font face="fira code" size="6"color = "white" className = "mx-2 my-4 px-2" >
         Hello, my name is <span className ="span"> <span className = "letter">S</span><span className = "letter">h</span><span className = "letter">o</span><span className = "letter" >u</span><span className = "letter">r</span><span className = "letter">y</span><span className = "letter">a</span></span></font></h2>
@@ -20,9 +20,9 @@ export const Home = () => {
         <a href="https://stackoverflow.com/users/13845215/copyrightc" target="_blank" rel="noopener noreferrer"> 
         <button style = {{borderRadius : "50%",height : "58px",width:"58px",backgroundColor : "white"}}><img src={img2} alt= ""/></button>
         </a>
-
+        <button className ="up btn btn-info" onClick = {(e) => {scroll.scrollToTop()}}>^</button>
     </div>
-    <button className ="up btn btn-info" onClick = {() => {scroll.scrollToTop()}}>^</button>
-    </>
+    
+
 )}
 

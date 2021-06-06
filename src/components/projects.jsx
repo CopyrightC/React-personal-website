@@ -5,7 +5,7 @@ import react1 from "./images/react1.png"
 export const Projects = () => {
     return (
     
-        <div id= "projects" style =  {{position : "absolute", top : "100%", left : "20%"}}>
+        <div id= "projects" style =  {{position : "absolute", top : "100%", left : "20%",width:"1200px"}}>
             <h1 className ="font"><span className = "letter">M</span><span className = "letter">y</span><span className = "letter"> p</span><span className = "letter">r</span><span className = "letter">o</span><span className = "letter">j</span><span className = "letter">e</span><span className = "letter">c</span><span className = "letter">t</span><span className = "letter">s</span><span className = "letter">!</span></h1>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">

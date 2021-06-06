@@ -5,7 +5,7 @@ export const Contact = () => {
     const [email,setEmail] = useState("");
     return (
         <>
-        <div style = {{position: "absolute",bottom:"-285%",left:"25%",textAlign:'center'}} id = "contact">
+        <div style = {{position: "absolute",bottom:"-295%",left:"25%",textAlign:'center'}} id = "contact">
             <h1 className ="font"><span className="letter">C</span><span className="letter">o</span><span className="letter">n</span><span className="letter">t</span><span className="letter">a</span><span className="letter">c</span><span className="letter">t</span></h1>
             <br />
             <br />
