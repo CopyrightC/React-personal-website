@@ -3,7 +3,7 @@
 }
 
 .mybutton:hover {
-  background-color: rgb(73, 65, 43);
+  background-color: #1f9cff;
   border: 1px solid #092b49;
   color: #0f0e0e;
 }
