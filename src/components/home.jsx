@@ -26,4 +26,3 @@ export const Home = () => {
     </>
 )}
 
-//<a href="https://github.com/SATAN01"target="_blank"><img src = "https://img.icons8.com/plasticine/2x/github.png"></img></a>
