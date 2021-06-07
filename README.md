@@ -1,6 +1,7 @@
 My personal website built with react!
 
 To run this on your machine :
+
 *Make sure you have [Node.js](https://nodejs.org/en/) installed"
 
 ```
