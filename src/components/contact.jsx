@@ -4,7 +4,7 @@ export const Contact = () => {
     const [msg,setMsg] = useState("");
     const [email,setEmail] = useState("");
     return (
-        <>
+ 
         <div id = "contactdiv">
             <h1 className ="font"><span className="letter">C</span><span className="letter">o</span><span className="letter">n</span><span className="letter">t</span><span className="letter">a</span><span className="letter">c</span><span className="letter">t</span></h1>
             <br />
@@ -27,7 +27,7 @@ export const Contact = () => {
             setEmail(""); setMsg(""); setName(""); 
             alert("Your message has been sent!")}
             else{alert("Please fill the text box/boxes before submitting!")}}}>Submit</button> 
-            </div>
-        </>
+        </div>
+   
     )
 }
