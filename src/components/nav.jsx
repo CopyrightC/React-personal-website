@@ -17,7 +17,7 @@ export const Nav = () => {
           <Link className="nav-link active" aria-current="page" to="home" type = "button">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" type = "button" to="contact" smooth = {true} duration = {300}>Contact</Link>
+          <Link className="nav-link" type = "button" to="contactdiv" smooth = {true} duration = {300}>Contact</Link>
         </li>
         <li className="nav-item dropdown">
         <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" to ="">
