@@ -10,5 +10,3 @@ npm install react-scroll
 npm start
 ```
 
-
-**(For better experience, open the website on a laptop/pc and not on a mobile device)**
