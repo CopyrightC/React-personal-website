@@ -10,6 +10,5 @@ npm install react-scroll
 npm start
 ```
 
-Website deployed [here](https://copyrightcweb.netlify.app/) 
 
 **(For better experience, open the website on a laptop/pc and not on a mobile device)**
