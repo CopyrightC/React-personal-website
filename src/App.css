@@ -2,6 +2,14 @@ html{
   font-size: 62.5%;
 }
 
+.me{
+  font-size: 2rem;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 
 #home{
   display: flex;
@@ -9,17 +17,22 @@ html{
   justify-content: center;
   align-items: center;
   height: 96.5vh;
+  margin: 0 2rem;
 }
+
 .mybutton:hover {
-  background-color: #1f9cff;
+  
+  background-color: #1691f5;
   border: .1rem solid #092b49;
   color: #0f0e0e;
+
 }
 
 
 .span {
   color: #a86b08;
 }
+
 nav{
   font-size: 1.6rem;
 }
@@ -31,7 +44,36 @@ nav{
   height: 7rem;
   width: 7rem;
 }
+
 .up:hover{
   color :white;
   background-color: #1a1717
+}
+
+@media (max-width:900px) {
+  html{
+    font-size: 50%;
+  }
+}
+@media (max-width:600px) {
+  html{
+    font-size: 40%;
+  }
+  .up{
+    width: 5rem;
+  }
+
+}
+.imgcon2{
+  width: 100%;
+  height: 55%;
+}
+
+@media (max-width:400px) {
+  html{
+    font-size: 30%;
+  }
+  .up{
+    display: none;
+  }
 }

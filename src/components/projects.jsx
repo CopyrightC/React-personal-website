@@ -20,7 +20,7 @@ export const Projects = () => {
         <div className="para">
           <p id="text">So, I have been programming for a while now, which ulimately led me to develop some cool projects. Here's a list of my top 4 projects : </p>
         </div>
-        <div className="item">
+        <div className="item pyc">
           1.<a href="https://github.com/SATAN01/GUI-chat-app" target="_blank" rel="noopener noreferrer"><font className="my-3 mx-3">Pychat</font> </a>
           <br />
           <br />
@@ -31,7 +31,7 @@ export const Projects = () => {
         </div>
 
         <hr />
-        <div className="item">
+        <div className="item pyc2">
           2. <a href="https://github.com/SATAN01/DogeChat" target="_blank" rel="noopener noreferrer">Pychat 2.0</a> (Also known as <i>DogeChat</i>)
           <br />
           <br />
@@ -41,7 +41,7 @@ export const Projects = () => {
 
         </div>
         <hr />
-        <div className="item">
+        <div className="item fin">
           3. <a href="https://github.com/SATAN01/Control-mouse-with-your-fingers" target="_blank" rel="noopener noreferrer"><font className="my-3 mx-3">Finger cursor</font></a>
           <br />
           <br />
@@ -52,7 +52,7 @@ export const Projects = () => {
           The app internally uses the <i>open cv</i> and <i>mediapipe</i> module to perform the task.
         </div>
         <hr />
-        <div className="item">
+        <div className="item hack">
           4. <a href="https://github.com/SATAN01/Advance-Hack-with-python" target="_blank" rel="noopener noreferrer">PyHack!</a>
           <br />
           <br />
