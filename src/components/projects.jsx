@@ -43,7 +43,7 @@ export const Projects = () => {
           Ever been in a situation when your mouse battery just dies and you can't do anything with it?
           Not sure about you but I've been in that situation for a million times now and so I decieded to make a app that would
           help me control my cursor just with movement of my fingers. Well that's what this repository does.
-          You can control the cursor with your index finger and left click by raising your index and the middle.
+          You can control the cursor with your index finger and left click by raising your index and the middle finger.
           The app internally uses the <i>open cv</i> and <i>mediapipe</i> module to perform the task.
         </div>
         <hr />
