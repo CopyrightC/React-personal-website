@@ -1,33 +1,27 @@
-import React ,{useState}from 'react'
+import React, { useState } from 'react'
+import "./styles/contact.css"
 export const Contact = () => {
-    const [name,setName] = useState("");
-    const [msg,setMsg] = useState("");
-    const [email,setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [msg, setMsg] = useState("");
+    const [email, setEmail] = useState("");
     return (
-         <>
-        <div id = "contactdiv">
-            <h1 className ="font"><span className="letter">C</span><span className="letter">o</span><span className="letter">n</span><span className="letter">t</span><span className="letter">a</span><span className="letter">c</span><span className="letter">t</span></h1>
-            <br />
-            <br />
-            <br />
-            <font className="ctxt">Your name</font>
-            <textarea value={name} onChange = {(eve)=>setName(eve.target.value)} className="textar" cols="100" rows="2" placeholder = "Eg : Elon Musk"></textarea>
-            <br />
-            <font className="ctxt">Email</font>
-            <textarea value={email} onChange = {(eve)=>setEmail(eve.target.value)} className="textar" cols="100" rows="2" placeholder = "yourname@example.com"></textarea>
-            <br />
-           
-            <font className="ctxt">Message</font>
-            <textarea value={msg} onChange = {(eve)=>setMsg(eve.target.value)} className="textar" cols="100" rows="15" placeholder = "Message here"></textarea>
-            <br />
-            
-            <button type="button" className="submit btn btn-primary my-3" style = {{width : "120px",height:"50px"}} onClick = {() => {
-                if(email&&msg&&name){
-            
-            setEmail(""); setMsg(""); setName(""); 
-            alert("Your message has been sent!")}
-            else{alert("Please fill the text box/boxes before submitting!")}}}>Submit</button> 
+        <div className="container">
+            <div className="contact">
+                <h1 className="font con"><span className="letter">C</span><span className="letter">o</span><span className="letter">n</span><span className="letter">t</span><span className="letter">a</span><span className="letter">c</span><span className="letter">t</span></h1>
+            </div>
+            <div className="conitems">
+                <a href="https://discord.gg/Q9N2SMCMnh" target="_blank" rel="noopener noreferrer">
+                    <button className="conbtn">
+                        <img className="imgcon" src="https://maxcdn.icons8.com/Share/icon/Logos/discord_logo1600.png" alt="" />
+                    </button>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=shouryasinha001@gmail.com&su=&tf=cm" target="_blank" rel="noopener noreferrer">
+                    <button className="conbtn">
+                        <img className="imgcon" src="https://th.bing.com/th/id/OIP.cSbfIgYccd9lYvryaZc_QQHaHa?pid=ImgDet&rs=1" alt="" />
+                    </button>
+                </a>
+
+            </div>
         </div>
-            </>
     )
 }

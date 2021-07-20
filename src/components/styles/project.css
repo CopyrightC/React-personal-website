@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.letter:hover {
+    color :rgb(55, 121, 165)
+}
+
+#text{
+
+    font-family: 'Fira Code', Courier, monospace;
+    font-size: 2rem;
+    
+    margin-top: 20px;
+    color: white;
+    max-width: 80%;
+}
+.para{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    margin-top: 2rem;
+    font-size: 2rem;
+    align-self: center;
+    max-width: 75%;
+    color: white;
+    font-family: 'Fira Code', Courier, monospace;
+}
+hr{
+    margin: 5rem 0;
+    align-self: center;
+    width: 75%;
+    color: white;
+}
+.font{
+    align-self: center;
+    color : rgb(251, 251, 251);
+    font-family: "fira code";
+}
+.caro{
+    margin-top: 10rem;
+    align-self: center;
+    width: 50%;
+    position: relative;
+}
+.parent{
+
+    display: flex;
+    flex-direction: column;
+}

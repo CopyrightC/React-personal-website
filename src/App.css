@@ -1,35 +1,35 @@
-.App:not(#id) {
-  text-align: center;
+html{
+  font-size: 62.5%;
 }
 
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 96.5vh;
+}
 .mybutton:hover {
   background-color: #1f9cff;
-  border: 1px solid #092b49;
+  border: .1rem solid #092b49;
   color: #0f0e0e;
 }
+
 
 .span {
   color: #a86b08;
 }
-
-.letter:hover {
-  color :rgb(121, 36, 76)
+nav{
+  font-size: 1.6rem;
 }
 
-.font {
-  margin-left: 350px;
-  position: absolute;
-  color : white;
-  margin-bottom: 50px;
-  font-family: "fira code";
-  
-}
 .up {
   position:fixed;
-  bottom: 10px;
-  right: 10px;
-  height: 70px;
-  width: 70px;
+  bottom: 1rem;
+  right: 1rem;
+  height: 7rem;
+  width: 7rem;
 }
 .up:hover{
   color :white;
@@ -37,60 +37,8 @@
 }
 
 
-#text {
-  margin-top: 200px;
-  text-align: left;
-  margin-right: 330px;
-  color : white;
-  font-size: 24px;
-  margin-bottom: 50px;
-  font-family: "fira code";
-  
-}
-.textar{
-  margin-top: 100px;
-  margin-right: 400px;
-}
-.submit{
-  margin-right : 1000px;
-}
-.submit:hover{
-  background-color  :rgb(124, 100, 34)
-}
-.ctxt{
-  text-align: left;
-  position: absolute;
-  color: white;
-  margin-top: 60px;
-  margin-bottom: auto;
-  font-size: 24px;
-  
-}
 
-.carousel{
-  position : "absolute";
-  margin-left : 60px;
-  margin-top: 91px;
-  margin-bottom: 91px;
-  top : "100%";
-  left : "20%";
-  max-width: 900px;
-  max-height : 600px;
-}
-.spansub {
-  color :rgb(89, 184, 27)
-}
-.listitem{
-  text-align: left;
-  margin-right: 290px;
-  color : white;
-  font-size: 24px;
-  margin-bottom: 50px;
-  font-family: "fira code";
-}
-.hr {
-  width: 75%;
-  color :white
-}
+
+
 
 

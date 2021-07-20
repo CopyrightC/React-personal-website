@@ -1,15 +1,16 @@
 import './App.css';
-import {Nav} from './components/nav.jsx'
-import {Home} from "./components/home.jsx"
-import {Projects} from "./components/projects.jsx"
-
+import { Nav } from './components/nav.jsx'
+import { Home } from "./components/home.jsx"
+import { Projects } from "./components/projects.jsx"
+import { Contact } from "./components/contact.jsx"
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Home/>
-      <Projects/>
+      <Nav />
+      <Home />
+      <Projects />
+      <Contact />
 
     </div>
   );
