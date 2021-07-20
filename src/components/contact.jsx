@@ -20,6 +20,10 @@ export const Contact = () => {
                 </a>
 
             </div>
+            <div className="like">
+                <p> Liked the website? Make sure you star it <a href="https://github.com/SATAN01/React-personal-website" target="_blank" rel="noopener noreferrer">here</a>
+                </p>
+            </div>
         </div>
     )
 }
