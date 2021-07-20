@@ -7,7 +7,7 @@ export const Home = () => {
             <h2 className="my-4"><font face="fira code" color="white" className="mx-2 my-4 px-2" >
                 Hello, my name is <span className="span"> <span className="letter">S</span><span className="letter">h</span><span className="letter">o</span><span className="letter" >u</span><span className="letter">r</span><span className="letter">y</span><span className="letter">a</span></span></font></h2>
             <div className="me">
-                <p><font face="fira code" color="white" className="mx-2 my-4 px-2" >I'm a Student, a <span className="spansub">Pythonista</span>, a <span className="spansub">Networking guy</span> and looking forward to learn <span className="spansub">React native</span></font></p>
+                <p><font face="fira code" color="white" className="mx-2 my-4 px-2" >I'm a Student, a <span className="spansub">Pythonista</span>, a <span className="spansub">Networking guy</span> and looking forward to learn <span className="spansub">React native.</span></font></p>
                 <p><font face="fira code" color="white" className="mx-2 my-4 px-2" >On the internet, I'm known as Copyright(C), quite weird huh?</font></p>
             </div>
             <Link className="nav-link" type="button" to="parent" smooth={true} duration={300}>
