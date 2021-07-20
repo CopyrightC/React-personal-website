@@ -1,0 +1,10 @@
+#foot{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 10rem;
+    font-size: 1.9rem;
+    
+}
