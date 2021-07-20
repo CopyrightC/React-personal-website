@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
-
-import { Contact } from "./contact.jsx"
+import React from 'react'
 import "./styles/project.css"
 import { Carousel } from './carousel'
 export const Projects = () => {
-  const [name, setName] = useState("");
-  const [msg, setMsg] = useState("");
-  const [email, setEmail] = useState("");
   return (
     <div className="parent">
       <h1 className="font"><span className="letter">M</span><span className="letter">y</span><span className="letter"> p</span><span className="letter">r</span><span className="letter">o</span><span className="letter">j</span><span className="letter">e</span><span className="letter">c</span><span className="letter">t</span><span className="letter">s</span><span className="letter">!</span></h1>

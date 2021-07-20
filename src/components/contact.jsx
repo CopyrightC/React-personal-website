@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./styles/contact.css"
 export const Contact = () => {
-    const [name, setName] = useState("");
-    const [msg, setMsg] = useState("");
-    const [email, setEmail] = useState("");
+
     return (
         <div className="container">
             <div className="contact">

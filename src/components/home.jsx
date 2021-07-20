@@ -1,6 +1,4 @@
 import React from 'react'
-import img from "./images/github.png"
-import img2 from "./images/stack.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 export const Home = () => {
     return (
