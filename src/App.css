@@ -1,7 +1,9 @@
 html{
   font-size: 62.5%;
 }
-
+*{
+   font-family: 'Fira Code', Courier, monospace;
+}
 .me{
   font-size: 2rem;
   max-width: 75%;
